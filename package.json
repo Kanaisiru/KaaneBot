@@ -1,7 +1,7 @@
 {
   "name": "Kanae",
   "version": "5.0.3",
-  "description": "Lightweight Bot Multidevice",
+  "description": "WhatsApp Bot",
   "depecrated": false,
   "module": "WhiskeySockets/Baileys",
   "main": "index.js",
