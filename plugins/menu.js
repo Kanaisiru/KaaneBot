@@ -149,7 +149,7 @@ conn.sendMessage(m.chat, { react: { text: '🤖', key: m.key }})
       }
     })
     if (teks == '404') {
-      let capt = `Hello, @${m.sender.replace(/@.+/g, '')} 🪸\n`
+      let capt = `Hello, @${m.sender.replace(/@.+/g, '')} 🚩\n`
       capt += `I am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n`
       capt += `◦ *Database* : Mongodb\n`
       capt += `◦ *Library* : ${module}\n`
@@ -173,7 +173,7 @@ conn.sendMessage(m.chat, { react: { text: '🤖', key: m.key }})
       capt += `│  ◦  ${_p + command} sticker\n`
       capt += `│  ◦  ${_p + command} tools\n`
       capt += `└  ◦  ${_p + command} anime\n\n`
-      capt += `to go to all commands type *.menuall*`
+      capt += `to go to all commands type *!menuall*`
       return conn.sendMessage(m.chat, {
 text: Styles(capt), 
 contextInfo: {
@@ -257,7 +257,7 @@ renderLargerThumbnail: true
 
 handler.help = ['help']
 handler.tags = ['main']
-handler.command = /^(menu|help|menunya)$/i
+handler.command = /^(menu|help|menunya|menuwoi|botmenu|kanaebot)$/i
 
 handler.register = false;
 handler.limit = true;
