@@ -7,7 +7,7 @@ const handler = async (m, { text, usedPrefix, command }) => {
   if (!text) return conn.reply(m.chat, `• *Example :* .aiyamada Siapa presiden Indonesia?`, m)
   
   let name = conn.getName(m.sender);
-  await conn.sendMessage(m.chat, { react: { text: "🕒", key: m.key } });
+  await conn.sendMessage(m.chat, { react: { text: "⏱️", key: m.key } });
   let tio = await fetch(`https://api.lolhuman.xyz/api/pinterest2?apikey=${global.lolkey}&query=yamada+anna+icon`);
   let p = await tio.json();
   let url = p.result[Math.floor(Math.random() * p.result.length)];
