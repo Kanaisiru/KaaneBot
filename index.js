@@ -26,17 +26,17 @@ function start(file) {
     align: 'center',
     colors: ['magenta']
   })
-  say('🌎 MEMUAT SOURCE...', {
+  say('📜 MEMUAT SOURCE...', {
     font: 'console',
     align: 'center',
     colors: ['green']
   })
-  say('📑 MEMUAT PLUGINS...', {
+  say('MEMUAT PLUGINS...', {
     font: 'console',
     align: 'center',
     colors: ['green']
   })
-  say('✅ DONE !', {
+  say('DONE !', {
     font: 'console',
     align: 'center',
     colors: ['green']
