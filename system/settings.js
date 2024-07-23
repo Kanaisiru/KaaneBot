@@ -26,7 +26,6 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 // Owner
 global.owner = [
   ['-'],
-  ['-'],
   ['62×××××', 'Owner', 'youemail@mail.com', true] // Nomor kamu, sebagai owner 
 ] // Put your number here
 global.mods = ['-'] // Moderator
