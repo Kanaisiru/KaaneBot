@@ -35,9 +35,9 @@ global.rose = '-'; // Apikey rose
 global.xyro = '-';
 global.btc = '-';
 global.xzn = 'akiyoo';
-global.lolkey = 'haikalgans';
+global.lolkey = 'elainaai';
 global.yanz = '-';
-global.zein = '-',
+global.zein = '-', // Isi sebagian apikey
 global.APIs = {
     // API Prefix
     // name: 'https://website'
