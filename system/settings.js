@@ -27,11 +27,11 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 global.owner = [
   ['-'],
   ['-'],
-  ['6295372305081', 'Owner', 'rizkylaksmanap@mail.id', true]
+  ['62×××××', 'Owner', 'youemail@mail.com', true] // Nomor kamu, sebagai owner 
 ] // Put your number here
 global.mods = ['-'] // Moderator
 global.prems = ['-'] // Premium
-global.rose = '-';
+global.rose = '-'; // Apikey rose
 global.xyro = '-';
 global.btc = '-';
 global.xzn = 'akiyoo';
@@ -68,18 +68,18 @@ global.APIKeys = {
     'https://api.lolhuman.xyz': 'GataDios',
     'https://api.itsrose.life': 'Rk-Salsabila',
     'https://skizo.tech': 'Composing',
-}
+} //Kebanyakan udh expired jadi ganti aja ke baru atau ambil apikey 
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'EMILY'
-  var sticker_author = 'EMILY'
+  var sticker_name = 'Kanae Bot'
+  var sticker_author = 'Kanae'
 } else {
-  var sticker_name = 'EMILY'
-  var sticker_author = 'EMILY Bot'
+  var sticker_name = 'Kanae'
+  var sticker_author = 'Kanae Bot'
 }
 
 const file_exif = "lib/exif.json"
@@ -114,20 +114,20 @@ global.status = {
 }
 
 // Database
-global.version = '5.0.3'
+global.version = '5.0.4'
 global.sessionName = 'session'
 global.gcbot = 'https://chat.whatsapp.com'
 global.instagram = 'https://instagram.com/'
-global.namebot = 'EMILY'
+global.namebot = 'Kaane Bot'
 global.thumb = 'https://iili.io/J5RBKOX.jpg'
 global.thumbnail = 'https://iili.io/J5RBKOX.jpg'
 global.myfile = fs.readFileSync(`./media/xfile.pdf`)
 global.thumb2 = fs.readFileSync('./media/thumbnail.mp4')
 global.qris = 'https://telegra.ph/file/bcb93fafb22f139ff1512.jpg'
 global.email = 'noemail@gmail.com'
-global.creator = "62895372305081@s.whatsapp.net"
+global.creator = "62×××××@s.whatsapp.net"
 global.nomorbot = '-'
-global.nomorown = '62895372305081'
+global.nomorown = '62×××××' // Nomor kamu
 global.pairingNumber = ''
 
 // Harga Nokos
@@ -147,7 +147,7 @@ global.sig = '-'
 global.syt = '-'
 global.sgh = '-'
 global.sgc = 'https://chat.whatsapp.com'
-global.swa = 'https://wa.me/62895372305081'
+global.swa = 'https://wa.me/62×××××××' // Nomor Kamu
 global.swb = '-' // Link Discord
 global.snh = 'https://nhentai.net/g/365296/' // Link nhentai
 
@@ -169,19 +169,19 @@ global.useMulti = true
 global.autoread = true
 
 // Watermark
-global.packname = 'EMILY - Wabot'
-global.author = 'RLP27'
-global.wm = 'EMILY - Bot'
-global.wm2 = 'EMILY Bot'
+global.packname = 'Whatsapp - Wabot'
+global.author = 'Kanaisiru'
+global.wm = 'Kanae - Bot'
+global.wm2 = 'Kanae Bot'
 global.bottime = `Time: ${wktuwib}`
 global.botdate = `Date: ${week} ${date}\nTime: ${wktuwib}`
 global.titlebot = `${global.wm}`
 global.danied = 'A K S E S  K A M U  D I  T O L A K!!'
 global.done = '```Success...\nDont forget to donate```'
-global.packname = 'EMILY - Wabot'
-global.author = 'EMILY WhatsApp Bot'
+global.packname = 'Whatsapp - Wabot'
+global.author = 'Kanae WhatsApp Bot'
 global.nameown = 'Owner'
-global.wait = 'Wait a moment... '
+global.wait = 'Loading.... '
 
 // Tampilan
 global.htki =  '⬣───「' // Hiasan kiri
