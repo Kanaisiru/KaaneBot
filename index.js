@@ -1,4 +1,4 @@
-console.log('Starting...')
+console.log('Starting bot...')
 let cluster = require('cluster')
 let path = require('path')
 let fs = require('fs')
@@ -31,12 +31,12 @@ function start(file) {
     align: 'center',
     colors: ['green']
   })
-  say('MEMUAT PLUGINS...', {
+  say('🕳️ MEMUAT PLUGINS...', {
     font: 'console',
     align: 'center',
     colors: ['green']
   })
-  say('DONE !', {
+  say('🦖 DONE !', {
     font: 'console',
     align: 'center',
     colors: ['green']
